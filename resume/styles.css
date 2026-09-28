@@ -1,0 +1,571 @@
+/*
+  Kaushal Gajera – Flutter Developer Resume
+  Professional, ATS-friendly, A4-optimized stylesheet.
+  Optimized for Chrome Print to PDF.
+*/
+
+/* ── Google Fonts Import ── */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+/* ── Design Tokens ── */
+:root {
+    --text-primary: #0f172a;
+    --text-secondary: #334155;
+    --text-muted: #64748b;
+    --accent: #1d4ed8;
+    --accent-light: #eff6ff;
+    --border: #cbd5e1;
+    --border-strong: #94a3b8;
+    --bg: #ffffff;
+    --tag-bg: #f1f5f9;
+
+    --font: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+
+    /* Body font slightly larger for readability */
+    --font-size-body: 10.5pt;
+    --font-size-sm: 9.5pt;
+    --font-size-xs: 8.8pt;
+    --line-height: 1.55;
+
+    /* Section spacing */
+    --section-gap: 13px;
+    --section-h-gap: 8px;
+}
+
+/* ── Reset ── */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ── Base ── */
+body {
+    font-family: var(--font);
+    font-size: var(--font-size-body);
+    line-height: var(--line-height);
+    color: var(--text-secondary);
+    background: #dde3ed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ── Toolbar (screen only) ── */
+.resume-toolbar {
+    max-width: 210mm;
+    margin: 28px auto 0;
+    padding: 0 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.resume-toolbar .back-link,
+.resume-toolbar .print-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font: 600 9.8pt var(--font);
+    padding: 9px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    cursor: pointer;
+    transition: filter 0.15s ease, opacity 0.15s ease;
+}
+
+.resume-toolbar .back-link {
+    background: var(--accent-light);
+    color: var(--accent);
+}
+
+.resume-toolbar .print-button {
+    background: var(--text-primary);
+    border-color: var(--text-primary);
+    color: #fff;
+}
+
+.resume-toolbar .back-link:hover {
+    text-decoration: none;
+    filter: brightness(0.97);
+}
+
+.resume-toolbar .print-button:hover {
+    opacity: 0.9;
+}
+
+/* ── A4 Container ── */
+.resume-container {
+    max-width: 210mm;
+    min-height: 297mm;
+    margin: 14px auto 40px;
+    background: var(--bg);
+    padding: 12mm 18mm 14mm;
+    box-shadow: 0 6px 32px rgba(0, 0, 0, 0.14), 0 1px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* ══════════════════════════════
+   HEADER
+══════════════════════════════ */
+header {
+    text-align: center;
+    padding-bottom: 13px;
+    margin-bottom: 18px;
+    border-bottom: 2.5px solid var(--text-primary);
+}
+
+header h1 {
+    font-size: 28pt;
+    font-weight: 700;
+    color: var(--text-primary);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 1.1;
+    margin-bottom: 6px;
+}
+
+header h2 {
+    font-size: 9.8pt;
+    font-weight: 500;
+    color: var(--accent);
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+}
+
+.contact-info span {
+    display: inline-flex;
+    align-items: center;
+}
+
+.contact-info span:not(:last-child)::after {
+    content: "|";
+    margin: 0 12px;
+    color: var(--border-strong);
+}
+
+.contact-info a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* ══════════════════════════════
+   SECTION TEMPLATE
+══════════════════════════════ */
+section {
+    margin-bottom: var(--section-gap);
+}
+
+/* Section headings */
+section h3 {
+    font-size: 8.8pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    color: var(--text-primary);
+    border-bottom: 1.5px solid var(--text-primary);
+    padding-bottom: 3px;
+    margin-bottom: 8px;
+}
+
+/* ══════════════════════════════
+   PROFESSIONAL SUMMARY
+══════════════════════════════ */
+.summary p {
+    font-size: var(--font-size-body);
+    color: var(--text-secondary);
+    line-height: 1.65;
+    text-align: left;
+}
+
+.summary p strong {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+/* ══════════════════════════════
+   KEY ACHIEVEMENTS
+══════════════════════════════ */
+.achievements-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.achievements-list li {
+    font-size: var(--font-size-body);
+    color: var(--text-secondary);
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.6;
+}
+
+.achievements-list li::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-size: 8pt;
+    top: 2px;
+}
+
+.achievements-list li strong {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+/* ══════════════════════════════
+   TECHNICAL SKILLS
+══════════════════════════════ */
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px 24px;
+}
+
+.skill-category {
+    font-size: var(--font-size-sm);
+    line-height: 1.5;
+}
+
+.skill-title {
+    display: inline;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.skill-list {
+    display: inline;
+    color: var(--text-secondary);
+    margin-left: 2px;
+}
+
+/* ══════════════════════════════
+   SPECIALIZED EXPERTISE
+══════════════════════════════ */
+.expertise-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 8px;
+}
+
+.expertise-grid span {
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    color: var(--text-primary);
+    background: var(--tag-bg);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 3px 9px;
+    white-space: nowrap;
+    line-height: 1.4;
+}
+
+/* ══════════════════════════════
+   LIVE APPLICATIONS
+══════════════════════════════ */
+.live-apps-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 8px;
+}
+
+.live-apps-grid span {
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    color: var(--text-primary);
+    background: var(--tag-bg);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 3px 9px;
+    white-space: nowrap;
+    line-height: 1.4;
+}
+
+/* ══════════════════════════════
+   PROFESSIONAL EXPERIENCE
+══════════════════════════════ */
+.job {
+    margin-bottom: 14px;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+.job-title-company h4 {
+    font-size: 11pt;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1.25;
+}
+
+.job-title-company .company {
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    color: var(--accent);
+    display: block;
+    margin-top: 2px;
+}
+
+.job-date-location {
+    text-align: right;
+    flex-shrink: 0;
+    margin-left: 14px;
+}
+
+.date {
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+.exp-context {
+    font-size: 9pt;
+    color: var(--text-muted);
+    margin-bottom: 7px;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.job-achievements {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.job-achievements li {
+    font-size: var(--font-size-body);
+    color: var(--text-secondary);
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.6;
+}
+
+.job-achievements li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--text-primary);
+    font-weight: 700;
+    font-size: 10pt;
+    line-height: 1.4;
+}
+
+/* ══════════════════════════════
+   SELECTED PROJECTS
+══════════════════════════════ */
+.project {
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+}
+
+.project:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.project-header {
+    margin-bottom: 6px;
+}
+
+.flagship-project .job-title-company h4 {
+    color: var(--accent);
+}
+
+.project-achievements {
+    gap: 5px;
+}
+
+.project-tech {
+    margin-top: 8px;
+    font-size: var(--font-size-xs);
+    color: var(--text-muted);
+    line-height: 1.6;
+    border-left: 2.5px solid var(--accent);
+    padding-left: 10px;
+}
+
+.project-tech strong {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+/* ══════════════════════════════
+   EDUCATION & TRAINING
+══════════════════════════════ */
+.edu-item {
+    margin-bottom: 10px;
+}
+
+.edu-item:last-child {
+    margin-bottom: 0;
+}
+
+.edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.edu-degree-school .degree-text {
+    font-size: 10.2pt;
+    font-weight: 700;
+    color: var(--text-primary);
+    display: block;
+    line-height: 1.3;
+}
+
+.edu-degree-school .school {
+    font-size: var(--font-size-sm);
+    color: var(--accent);
+    font-weight: 500;
+    display: block;
+    margin-top: 3px;
+    line-height: 1.45;
+}
+
+.edu-detail {
+    font-size: var(--font-size-sm);
+    color: var(--text-muted);
+    margin-top: 4px;
+    line-height: 1.55;
+}
+
+/* ══════════════════════════════
+   PRINT STYLES  (Chrome → Save as PDF)
+══════════════════════════════ */
+@media print {
+    @page {
+        size: A4;
+        margin: 0;
+    }
+
+    body {
+        background: transparent;
+        margin: 0;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .resume-toolbar {
+        display: none;
+    }
+
+    .resume-container {
+        max-width: 100%;
+        min-height: unset;
+        margin: 0;
+        padding: 13mm 18mm 14mm;
+        box-shadow: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    section {
+        page-break-inside: auto;
+    }
+
+    .job,
+    .project,
+    .edu-item,
+    .skill-category {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    .expertise-grid span,
+    .live-apps-grid span {
+        border: 1px solid var(--border);
+    }
+}
+/* ══════════════════════════════
+   MOBILE RESPONSIVENESS
+══════════════════════════════ */
+@media screen and (max-width: 768px) {
+    .resume-toolbar {
+        margin: 0;
+        padding: 12px 16px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .resume-container {
+        margin: 0;
+        padding: 20px;
+        box-shadow: none;
+        width: 100%;
+        min-height: 100vh;
+    }
+    
+    header h1 {
+        font-size: 24pt;
+    }
+    
+    .contact-info {
+        flex-direction: column;
+        gap: 6px;
+    }
+    
+    .contact-info span:not(:last-child)::after {
+        display: none;
+    }
+    
+    .contact-info span {
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .job-header, .edu-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .job-date-location {
+        text-align: left;
+        margin-left: 0;
+        margin-top: 4px;
+    }
+}
