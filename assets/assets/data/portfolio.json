@@ -1,0 +1,3614 @@
+{
+  "name": "KAUSHAL GAJERA",
+  "title": "Flutter Developer · Mobile & Web",
+  "headline": "I build reliable Flutter products for startups and teams — mobile apps, real-time systems, maps and payments.",
+  "email": "kaushal.mac123@gmail.com",
+  "resumeUrl": "resume/",
+  "githubUrl": "https://github.com/devoryxstudio",
+  "linkedinUrl": "https://www.linkedin.com/in/kaushal-gajera-8669bb255/",
+  "yearsOfExperience": "3+",
+  "productionApps": "6+",
+  "architectureFocus": "Mobile + Web Delivery",
+  "experiences": [
+    {
+      "company": "Applitz Solution",
+      "role": "Flutter Developer",
+      "duration": "January 2024 – Present",
+      "contributions": [
+        "Developed and maintained large-scale Flutter applications for Android, iOS, and Web.",
+        "Built scalable mobile architectures using GetX, Bloc/Cubit, and Clean Architecture.",
+        "Integrated real-time communication using Socket.IO and WebSockets.",
+        "Implemented payment systems including Stripe and Razorpay.",
+        "Delivered Flutter Web administration platforms and enterprise dashboards.",
+        "Integrated Firebase Authentication, Firestore, and FCM.",
+        "Worked with complex business workflows and enterprise-level code standards.",
+        "Published and maintained production applications on Google Play Store and Apple App Store."
+      ],
+      "impact": "Engineered resilient architectures powering 6+ scalable apps"
+    }
+  ],
+  "projects": [
+    {
+      "id": "loadster",
+      "slug": "loadster",
+      "name": "Loadster Logistics Platform",
+      "tagline": "Enterprise Logistics Ecosystem",
+      "description": "A real-time logistics platform connecting businesses and verified drivers through two production Flutter applications. Built with scalable architecture, Socket.IO, Google Maps, background location tracking, and enterprise-grade logistics workflows.\n\nLoadster is not a single mobile application. It is an enterprise logistics ecosystem consisting of two production Flutter applications: Loadster (Customer / Shipper) and Champion (Driver).\n\nBoth communicate together through REST APIs, Socket.IO, Google Maps, Live GPS, and Backend Services to manage a real-time order lifecycle.",
+      "category": "Logistics",
+      "type": "mobileApp",
+      "tags": [
+        "Flutter",
+        "Ecosystem"
+      ],
+      "domain": "Logistics",
+      "platforms": [],
+      "techStack": [
+        "Flutter",
+        "Dart",
+        "GetX",
+        "Hive",
+        "Socket.IO",
+        "REST API",
+        "Firebase",
+        "Google Maps",
+        "Geolocator",
+        "Background Services",
+        "Flutter Local Notifications",
+        "FCM",
+        "Dio",
+        "Crashlytics",
+        "Sentry",
+        "Responsive UI"
+      ],
+      "features": [
+        "2 Production Applications",
+        "10K+ Downloads",
+        "20+ Cities",
+        "Real-time Tracking",
+        "Socket.IO",
+        "Google Maps",
+        "Background GPS",
+        "Enterprise Logistics",
+        "Verified Drivers",
+        "Live Chat",
+        "Broker-free Logistics",
+        "Transparent Pricing"
+      ],
+      "responsibilities": [
+        "Designed and developed two production Flutter applications.",
+        "Implemented real-time Socket.IO communication.",
+        "Integrated Google Maps and live GPS tracking.",
+        "Built shipment lifecycle workflows.",
+        "Implemented driver-customer chat.",
+        "Created reusable GetX architecture.",
+        "Integrated Firebase services.",
+        "Implemented background location tracking.",
+        "Worked with REST APIs.",
+        "Developed enterprise logistics workflows.",
+        "Built scalable modular architecture."
+      ],
+      "challenges": [
+        "Maintaining persistent GPS tracking in the background across heavily customized Android OS versions (MIUI, ColorOS) without getting killed by battery optimizations.",
+        "Handling real-time Socket.IO disconnections and state recovery gracefully during spotty mobile network conditions."
+      ],
+      "architecture": {
+        "description": "Clean Architecture with GetX for predictable state management. Native Android foreground services ensure persistent real-time GPS tracking even when the app is terminated.",
+        "nodes": [
+          {
+            "id": "backend",
+            "label": "Backend",
+            "icon": "cloud",
+            "tech": [
+              "REST + Socket.IO"
+            ]
+          },
+          {
+            "id": "loadster",
+            "label": "Loadster Customer App",
+            "icon": "smartphone",
+            "tech": [
+              "Customer App"
+            ]
+          },
+          {
+            "id": "champion",
+            "label": "Champion Driver App",
+            "icon": "smartphone",
+            "tech": [
+              "Driver App"
+            ]
+          },
+          {
+            "id": "tracking",
+            "label": "Live Tracking",
+            "icon": "map",
+            "tech": [
+              "GPS"
+            ]
+          },
+          {
+            "id": "flow",
+            "label": "Shipment Flow",
+            "icon": "sync",
+            "tech": [
+              "Logistics"
+            ]
+          }
+        ],
+        "connections": [
+          {
+            "fromId": "loadster",
+            "toId": "backend",
+            "label": "REST + Socket.IO"
+          },
+          {
+            "fromId": "champion",
+            "toId": "backend",
+            "label": "REST + Socket.IO"
+          },
+          {
+            "fromId": "tracking",
+            "toId": "loadster",
+            "label": "Updates"
+          },
+          {
+            "fromId": "tracking",
+            "toId": "champion",
+            "label": "Updates"
+          },
+          {
+            "fromId": "flow",
+            "toId": "tracking",
+            "label": ""
+          }
+        ]
+      },
+      "workflow": null,
+      "problem": null,
+      "solution": null,
+      "results": null,
+      "timeline": "2023 - Present",
+      "startDate": null,
+      "completionDate": null,
+      "clientName": null,
+      "companyName": null,
+      "teamSize": 4,
+      "role": "Lead Mobile Engineer",
+      "status": "ongoing",
+      "isFeatured": true,
+      "isHidden": false,
+      "displayOrder": null,
+      "websiteLink": null,
+      "privacyPolicyLink": null,
+      "aboutLink": null,
+      "playStoreLink": null,
+      "appStoreLink": null,
+      "githubLink": null,
+      "videoDemoLink": null,
+      "caseStudyLink": null,
+      "screenshots": [
+        {
+          "imagePath": "assets/images/projects/loadster-logistics/champion_app/3.png",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/loadster-logistics/loadster/3.png",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/loadster-logistics/loadster/14.png",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        }
+      ],
+      "subProjects": [
+        {
+          "id": "loadster-shipper",
+          "slug": "loadster-shipper",
+          "name": "Loadster",
+          "tagline": "Customer / Shipper Application",
+          "description": "Loadster enables businesses and customers to book trucks, create shipments, track deliveries in real time, communicate with drivers, manage invoices, and simplify logistics operations through a modern Flutter application.\n\nBuilt as a broker-free platform, it serves as a business-friendly enterprise tool that scales with user needs, offering complete shipment management, real-time order monitoring, and seamless driver interactions.",
+          "category": "Logistics",
+          "type": "mobileApp",
+          "tags": [
+            "Flutter",
+            "Customer App"
+          ],
+          "domain": "Logistics",
+          "platforms": [],
+          "techStack": [
+            "Flutter",
+            "Dart",
+            "GetX",
+            "Hive",
+            "REST APIs",
+            "Socket.IO",
+            "Firebase",
+            "Google Maps",
+            "Geolocator",
+            "Dio",
+            "Firebase Messaging",
+            "Firebase Crashlytics",
+            "Flutter Local Notifications",
+            "Responsive UI"
+          ],
+          "features": [
+            "Instant Truck Booking",
+            "Shipment Creation",
+            "Vehicle Selection",
+            "Pickup & Drop Locations",
+            "Goods Information",
+            "Live Driver Tracking",
+            "Order Timeline",
+            "Driver Chat",
+            "Push Notifications",
+            "Invoice Management",
+            "Proof of Delivery",
+            "Booking History",
+            "Reorder Shipments",
+            "Profile Management",
+            "Business Dashboard",
+            "Transparent Pricing",
+            "Order Status Tracking",
+            "Saved Addresses",
+            "Location Search",
+            "Google Maps Integration",
+            "Real-time Updates"
+          ],
+          "responsibilities": [
+            "Designed and developed the Flutter application.",
+            "Implemented booking workflow.",
+            "Integrated REST APIs.",
+            "Implemented Socket.IO real-time communication.",
+            "Integrated Google Maps.",
+            "Implemented live shipment tracking.",
+            "Developed reusable GetX architecture.",
+            "Created modular UI components.",
+            "Integrated push notifications.",
+            "Implemented local storage using Hive.",
+            "Improved application performance.",
+            "Built responsive UI.",
+            "Optimized code structure.",
+            "Collaborated with backend APIs.",
+            "Maintained production-quality architecture."
+          ],
+          "challenges": [],
+          "architecture": {
+            "description": "Clean Architecture with GetX for predictable state management, coupled with a modular layout of reusable components. Built on a repository pattern ensuring high-performance communication with the backend.",
+            "nodes": [
+              {
+                "id": "frontend",
+                "label": "Flutter Frontend",
+                "icon": "smartphone",
+                "tech": [
+                  "Flutter"
+                ]
+              },
+              {
+                "id": "rest",
+                "label": "REST API",
+                "icon": "api",
+                "tech": [
+                  "Dio"
+                ]
+              },
+              {
+                "id": "backend",
+                "label": "Backend Services",
+                "icon": "cloud",
+                "tech": [
+                  "Node.js"
+                ]
+              },
+              {
+                "id": "socket",
+                "label": "Socket.IO",
+                "icon": "bolt",
+                "tech": [
+                  "Real-time Updates"
+                ]
+              },
+              {
+                "id": "maps",
+                "label": "Google Maps",
+                "icon": "map",
+                "tech": [
+                  "Live Tracking"
+                ]
+              }
+            ],
+            "connections": [
+              {
+                "fromId": "frontend",
+                "toId": "rest",
+                "label": ""
+              },
+              {
+                "fromId": "rest",
+                "toId": "backend",
+                "label": ""
+              },
+              {
+                "fromId": "backend",
+                "toId": "socket",
+                "label": ""
+              },
+              {
+                "fromId": "socket",
+                "toId": "frontend",
+                "label": "Real-time Driver Updates"
+              },
+              {
+                "fromId": "frontend",
+                "toId": "maps",
+                "label": "Live Tracking"
+              }
+            ]
+          },
+          "workflow": {
+            "description": "",
+            "nodes": [
+              {
+                "id": "create",
+                "label": "Create Shipment",
+                "icon": "add_box",
+                "tech": []
+              },
+              {
+                "id": "vehicle",
+                "label": "Choose Vehicle",
+                "icon": "local_shipping",
+                "tech": []
+              },
+              {
+                "id": "driver",
+                "label": "Select Driver",
+                "icon": "person_search",
+                "tech": []
+              },
+              {
+                "id": "assigned",
+                "label": "Driver Assigned",
+                "icon": "assignment_turned_in",
+                "tech": []
+              },
+              {
+                "id": "tracking",
+                "label": "Live Tracking",
+                "icon": "my_location",
+                "tech": []
+              },
+              {
+                "id": "delivery",
+                "label": "Delivery",
+                "icon": "where_to_vote",
+                "tech": []
+              },
+              {
+                "id": "pod",
+                "label": "Proof of Delivery",
+                "icon": "fact_check",
+                "tech": []
+              },
+              {
+                "id": "invoice",
+                "label": "Invoice Completed",
+                "icon": "receipt_long",
+                "tech": []
+              }
+            ],
+            "connections": [
+              {
+                "fromId": "create",
+                "toId": "vehicle",
+                "label": ""
+              },
+              {
+                "fromId": "vehicle",
+                "toId": "driver",
+                "label": ""
+              },
+              {
+                "fromId": "driver",
+                "toId": "assigned",
+                "label": ""
+              },
+              {
+                "fromId": "assigned",
+                "toId": "tracking",
+                "label": ""
+              },
+              {
+                "fromId": "tracking",
+                "toId": "delivery",
+                "label": ""
+              },
+              {
+                "fromId": "delivery",
+                "toId": "pod",
+                "label": ""
+              },
+              {
+                "fromId": "pod",
+                "toId": "invoice",
+                "label": ""
+              }
+            ]
+          },
+          "problem": "Businesses often struggle with finding verified trucks, maintaining shipment visibility, managing manual coordination, tracking deliveries efficiently, and communicating clearly with drivers during transit. The lack of a unified digital logistics system causes delays and operational friction.",
+          "solution": null,
+          "results": null,
+          "timeline": "",
+          "startDate": null,
+          "completionDate": null,
+          "clientName": null,
+          "companyName": null,
+          "teamSize": 1,
+          "role": "",
+          "status": "completed",
+          "isFeatured": false,
+          "isHidden": false,
+          "displayOrder": null,
+          "websiteLink": null,
+          "privacyPolicyLink": null,
+          "aboutLink": null,
+          "playStoreLink": null,
+          "appStoreLink": null,
+          "githubLink": null,
+          "videoDemoLink": null,
+          "caseStudyLink": null,
+          "screenshots": [
+            {
+              "imagePath": "assets/images/projects/loadster-logistics/loadster/1.png",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/loadster-logistics/loadster/2.png",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/loadster-logistics/loadster/3.png",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/loadster-logistics/loadster/4.png",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/loadster-logistics/loadster/5.png",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/loadster-logistics/loadster/6.png",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/loadster-logistics/loadster/7.jpg",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/loadster-logistics/loadster/8.jpg",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/loadster-logistics/loadster/9.jpg",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/loadster-logistics/loadster/10.jpg",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/loadster-logistics/loadster/11.jpg",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/loadster-logistics/loadster/12.png",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/loadster-logistics/loadster/13.png",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/loadster-logistics/loadster/14.png",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            }
+          ],
+          "subProjects": []
+        },
+        {
+          "id": "champion-driver",
+          "slug": "champion-driver",
+          "name": "Champion",
+          "tagline": "Driver Application",
+          "description": "Champion empowers verified truck drivers to receive shipment requests, accept trips, navigate routes, share live location, update delivery status, upload proof of delivery, and manage their logistics workflow through a real-time Flutter application.\n\nIt operates as a comprehensive driver management application featuring real-time dispatch, route navigation, earnings management, and enterprise logistics operations.",
+          "category": "Logistics",
+          "type": "mobileApp",
+          "tags": [
+            "Flutter",
+            "Driver App",
+            "Android"
+          ],
+          "domain": "Logistics",
+          "platforms": [],
+          "techStack": [
+            "Flutter",
+            "Dart",
+            "GetX",
+            "Hive",
+            "Socket.IO",
+            "REST APIs",
+            "Google Maps",
+            "Geolocator",
+            "Firebase",
+            "Firebase Messaging",
+            "Crashlytics",
+            "Flutter Local Notifications",
+            "Dio",
+            "Background Location Services",
+            "Responsive UI",
+            "Permissions Handling",
+            "Deep Linking"
+          ],
+          "features": [
+            "Driver Authentication",
+            "OTP Login",
+            "Live Order Requests",
+            "Accept / Reject Shipments",
+            "Trip Dashboard",
+            "Google Maps Navigation",
+            "Live GPS Sharing",
+            "Real-time Status Updates",
+            "Socket.IO Communication",
+            "Trip Timeline",
+            "Pickup Confirmation",
+            "Delivery Confirmation",
+            "Proof of Delivery Upload",
+            "Image Upload",
+            "Driver Profile",
+            "Trip History",
+            "Notifications",
+            "Push Notifications",
+            "Chat with Customer",
+            "Chat with Operations",
+            "Background Location Tracking",
+            "Online / Offline Status",
+            "Availability Toggle",
+            "Vehicle Information",
+            "Earnings Summary",
+            "Subscription Plans",
+            "Responsive Dashboard",
+            "Offline Data Sync"
+          ],
+          "responsibilities": [
+            "Developed the complete Flutter driver application.",
+            "Integrated Socket.IO real-time communication.",
+            "Implemented live shipment workflow.",
+            "Integrated Google Maps navigation.",
+            "Implemented continuous background location tracking.",
+            "Developed trip lifecycle management.",
+            "Integrated Firebase services.",
+            "Implemented push notifications.",
+            "Built reusable GetX architecture.",
+            "Implemented Proof of Delivery workflow.",
+            "Created responsive Flutter UI.",
+            "Integrated REST APIs.",
+            "Optimized application performance.",
+            "Maintained production-quality architecture.",
+            "Collaborated with backend services."
+          ],
+          "challenges": [],
+          "architecture": {
+            "description": "Built with a modular architecture and GetX for clean state management, the application guarantees production-ready code. Foreground Android services run natively to persist background location tracking reliably.",
+            "nodes": [
+              {
+                "id": "frontend",
+                "label": "Flutter Frontend",
+                "icon": "smartphone",
+                "tech": [
+                  "Flutter"
+                ]
+              },
+              {
+                "id": "rest",
+                "label": "REST APIs",
+                "icon": "api",
+                "tech": [
+                  "Dio"
+                ]
+              },
+              {
+                "id": "backend",
+                "label": "Backend",
+                "icon": "cloud",
+                "tech": [
+                  "Node.js"
+                ]
+              },
+              {
+                "id": "socket",
+                "label": "Socket.IO",
+                "icon": "bolt",
+                "tech": [
+                  "Live Dispatch"
+                ]
+              },
+              {
+                "id": "maps",
+                "label": "Google Maps",
+                "icon": "map",
+                "tech": [
+                  "Navigation"
+                ]
+              },
+              {
+                "id": "bg_loc",
+                "label": "Background Tracking",
+                "icon": "gps_fixed",
+                "tech": [
+                  "Foreground Service"
+                ]
+              }
+            ],
+            "connections": [
+              {
+                "fromId": "frontend",
+                "toId": "rest",
+                "label": ""
+              },
+              {
+                "fromId": "rest",
+                "toId": "backend",
+                "label": ""
+              },
+              {
+                "fromId": "backend",
+                "toId": "socket",
+                "label": ""
+              },
+              {
+                "fromId": "socket",
+                "toId": "frontend",
+                "label": "Live Dispatch"
+              },
+              {
+                "fromId": "frontend",
+                "toId": "maps",
+                "label": ""
+              },
+              {
+                "fromId": "frontend",
+                "toId": "bg_loc",
+                "label": "Customer Tracking"
+              }
+            ]
+          },
+          "workflow": {
+            "description": "",
+            "nodes": [
+              {
+                "id": "login",
+                "label": "Driver Login",
+                "icon": "login",
+                "tech": []
+              },
+              {
+                "id": "request",
+                "label": "Receive Request",
+                "icon": "notifications_active",
+                "tech": []
+              },
+              {
+                "id": "accept",
+                "label": "Accept Trip",
+                "icon": "check_circle",
+                "tech": []
+              },
+              {
+                "id": "pickup",
+                "label": "Navigate to Pickup",
+                "icon": "directions_car",
+                "tech": []
+              },
+              {
+                "id": "pickup_done",
+                "label": "Pickup Completed",
+                "icon": "done_all",
+                "tech": []
+              },
+              {
+                "id": "destination",
+                "label": "Navigate to Destination",
+                "icon": "explore",
+                "tech": []
+              },
+              {
+                "id": "live_loc",
+                "label": "Share Live Location",
+                "icon": "share_location",
+                "tech": []
+              },
+              {
+                "id": "pod",
+                "label": "Upload POD",
+                "icon": "cloud_upload",
+                "tech": []
+              },
+              {
+                "id": "complete",
+                "label": "Trip Completed",
+                "icon": "task_alt",
+                "tech": []
+              },
+              {
+                "id": "payment",
+                "label": "Payment Updated",
+                "icon": "payments",
+                "tech": []
+              }
+            ],
+            "connections": [
+              {
+                "fromId": "login",
+                "toId": "request",
+                "label": ""
+              },
+              {
+                "fromId": "request",
+                "toId": "accept",
+                "label": ""
+              },
+              {
+                "fromId": "accept",
+                "toId": "pickup",
+                "label": ""
+              },
+              {
+                "fromId": "pickup",
+                "toId": "pickup_done",
+                "label": ""
+              },
+              {
+                "fromId": "pickup_done",
+                "toId": "destination",
+                "label": ""
+              },
+              {
+                "fromId": "destination",
+                "toId": "live_loc",
+                "label": ""
+              },
+              {
+                "fromId": "live_loc",
+                "toId": "pod",
+                "label": ""
+              },
+              {
+                "fromId": "pod",
+                "toId": "complete",
+                "label": ""
+              },
+              {
+                "fromId": "complete",
+                "toId": "payment",
+                "label": ""
+              }
+            ]
+          },
+          "problem": "Drivers consistently face challenges such as finding consistent delivery jobs, managing multiple shipments efficiently, sharing live locations, and relying on manual communication. Navigation difficulties, status updates, capturing proof of delivery, and tracking trip earnings manually lead to significant operational friction.",
+          "solution": null,
+          "results": null,
+          "timeline": "",
+          "startDate": null,
+          "completionDate": null,
+          "clientName": null,
+          "companyName": null,
+          "teamSize": 1,
+          "role": "",
+          "status": "completed",
+          "isFeatured": false,
+          "isHidden": false,
+          "displayOrder": null,
+          "websiteLink": null,
+          "privacyPolicyLink": null,
+          "aboutLink": null,
+          "playStoreLink": null,
+          "appStoreLink": null,
+          "githubLink": null,
+          "videoDemoLink": null,
+          "caseStudyLink": null,
+          "screenshots": [
+            {
+              "imagePath": "assets/images/projects/loadster-logistics/champion_app/1.png",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/loadster-logistics/champion_app/2.png",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/loadster-logistics/champion_app/3.png",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/loadster-logistics/champion_app/4.png",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/loadster-logistics/champion_app/5.png",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            }
+          ],
+          "subProjects": []
+        }
+      ]
+    },
+    {
+      "id": "smarden",
+      "slug": "smarden",
+      "name": "SmarDen Platform",
+      "tagline": "IoT, Automation & B2B Ecosystem",
+      "description": "An ecosystem of Flutter applications spanning smart-building automation, real-time IoT control, and B2B electrical-product distribution — built around reusable technology and white-label deployment.\n\nSmarDen is not a single isolated mobile application. It is an enterprise multi-product technology ecosystem consisting of two core production Flutter applications: SmarDen Prime (Smart Building & IoT Automation) and Smarden Network (B2B2C Electrical Products & Partner Network).\n\nBoth platforms leverage shared architectural foundations in Flutter and Dart, connecting distributed hardware devices, local protocols, real-time cloud brokers, and complex B2B commerce workflows while powering multiple branded OEM deployments.",
+      "category": "IoT & Platform",
+      "type": "iotPlatform",
+      "tags": [
+        "Flutter",
+        "Dart",
+        "GetX",
+        "REST APIs",
+        "WebSockets",
+        "IoT"
+      ],
+      "domain": "IoT / Home Automation / B2B Platform",
+      "platforms": [],
+      "techStack": [
+        "Flutter",
+        "Dart",
+        "GetX",
+        "REST APIs",
+        "Dio",
+        "WebSockets",
+        "Firebase",
+        "FCM",
+        "Hive",
+        "BLE",
+        "TCP / LAN",
+        "Zigbee",
+        "IoT",
+        "Android / iOS",
+        "Responsive UI"
+      ],
+      "features": [
+        "2 Core Production Applications",
+        "Smart Building Automation",
+        "Real-Time IoT Device Control",
+        "Multi-Protocol Device Communication",
+        "Scenes & Routines",
+        "Workflow Automation",
+        "Energy Monitoring",
+        "Smart Lock Integration",
+        "B2B Partner Management",
+        "Quotation & Order Workflows",
+        "Payment Verification",
+        "Commission Management",
+        "Role-Based Access Control",
+        "White-Label Deployments",
+        "Android & iOS Support"
+      ],
+      "responsibilities": [
+        "Led core Flutter application development across the SmarDen multi-product ecosystem.",
+        "Architected feature-first codebases utilizing GetX MVC (controllers, bindings, reactive UI) over resilient service layers.",
+        "Implemented real-time WebSocket communication and token authentication for IoT device control.",
+        "Engineered multi-protocol connectivity including TCP/LAN discovery, BLE device onboarding, and Zigbee gateway interactions.",
+        "Built complex enterprise workflows in Smarden Network: partner onboarding, quotations, order lifecycles, and commission attribution.",
+        "Integrated comprehensive Role-Based Access Control (RBAC) supporting client, partner, and administrative interfaces.",
+        "Developed dynamic runtime organization branding and module configuration enabling white-label OEM releases.",
+        "Ensured high-performance responsive UI, memory efficiency, and rock-solid production stability across Android and iOS."
+      ],
+      "challenges": [
+        "Orchestrating dual communication paths: instantaneous local LAN control (raw TCP/BLE) for sub-50ms latency alongside resilient cloud WebSocket synchronization for remote access.",
+        "Designing an organization-driven dynamic theming and module enablement system without runtime performance degradation or layout regressions across low-end mobile devices.",
+        "Managing complex multi-role state transitions (Electrician, Architect, Distributor, Admin) in SmarDen Network with strict client-side permission enforcement and offline resilience."
+      ],
+      "architecture": {
+        "description": "A unified platform architecture engineered in Flutter and Dart. The presentation layer employs GetX MVC with reactive controllers and bindings over a shared service layer. High-frequency IoT interactions leverage token-authenticated WebSockets and direct LAN protocols (TCP/BLE/Zigbee), while enterprise commercial operations stream through structured REST services with role-based access control.",
+        "nodes": [
+          {
+            "id": "prime",
+            "label": "SmarDen Prime",
+            "icon": "home_iot",
+            "tech": [
+              "Smart Building",
+              "IoT Control"
+            ]
+          },
+          {
+            "id": "network",
+            "label": "Smarden Network",
+            "icon": "business",
+            "tech": [
+              "B2B2C Platform",
+              "Quotation Network"
+            ]
+          },
+          {
+            "id": "flutter_layer",
+            "label": "Flutter Platform Layer",
+            "icon": "smartphone",
+            "tech": [
+              "GetX MVC",
+              "Feature Modules",
+              "Shared Services"
+            ]
+          },
+          {
+            "id": "cloud_broker",
+            "label": "Cloud & Real-Time Broker",
+            "icon": "cloud",
+            "tech": [
+              "REST APIs",
+              "WebSocket Broker"
+            ]
+          },
+          {
+            "id": "hardware_layer",
+            "label": "IoT & Local Protocols",
+            "icon": "router",
+            "tech": [
+              "TCP / LAN",
+              "BLE",
+              "Zigbee Gateway"
+            ]
+          },
+          {
+            "id": "b2b_services",
+            "label": "B2B Commerce & RBAC",
+            "icon": "inventory",
+            "tech": [
+              "Orders",
+              "Payments",
+              "Commissions"
+            ]
+          }
+        ],
+        "connections": [
+          {
+            "fromId": "prime",
+            "toId": "flutter_layer",
+            "label": ""
+          },
+          {
+            "fromId": "network",
+            "toId": "flutter_layer",
+            "label": ""
+          },
+          {
+            "fromId": "flutter_layer",
+            "toId": "cloud_broker",
+            "label": "Cloud Stream"
+          },
+          {
+            "fromId": "cloud_broker",
+            "toId": "hardware_layer",
+            "label": "Device Broker"
+          },
+          {
+            "fromId": "cloud_broker",
+            "toId": "b2b_services",
+            "label": "Workflow Engine"
+          }
+        ]
+      },
+      "workflow": null,
+      "problem": null,
+      "solution": "The same core technology is adapted and deployed as branded applications for different OEM and enterprise partners. Instead of rebuilding the entire application for each partner, a centralized foundation combines:\n\n• Reusable Core Engine: Shared communication, device discovery, state management, and real-time synchronization.\n• Tenant & Organization Configuration: Dynamic runtime branding that adapts display name, logo assets, primary/seed color palettes, and operational modules per organization.\n• Multi-Protocol Hardware Layer: Universal device abstractions compatible across diverse branded hardware catalogs.\n• Branded Applications: Seamless OEM deployments that maintain dedicated customer-facing brand identities while guaranteeing rock-solid production stability.",
+      "results": null,
+      "timeline": "2023 - Present",
+      "startDate": null,
+      "completionDate": null,
+      "clientName": null,
+      "companyName": null,
+      "teamSize": 4,
+      "role": "Core Flutter Engineer",
+      "status": "ongoing",
+      "isFeatured": true,
+      "isHidden": false,
+      "displayOrder": null,
+      "websiteLink": "https://smarden.in/",
+      "privacyPolicyLink": "https://smarden.in/privacy-policy/",
+      "aboutLink": "https://smarden.in/about-smarden-the-home-automation-company/",
+      "playStoreLink": null,
+      "appStoreLink": null,
+      "githubLink": null,
+      "videoDemoLink": null,
+      "caseStudyLink": null,
+      "screenshots": [
+        {
+          "imagePath": "assets/images/projects/smarden/1.png",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/smarden/2.png",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/smarden/3.png",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        }
+      ],
+      "subProjects": [
+        {
+          "id": "smarden-prime",
+          "slug": "smarden-prime",
+          "name": "SmarDen Prime",
+          "tagline": "Smart Building & IoT Automation Platform",
+          "description": "A real-time smart-building platform connecting residents, rooms, devices, and automation workflows through a Flutter application with cloud, WebSocket, and hardware-level communication.\n\nSmarDen Prime serves as the command center for modern smart homes and commercial buildings. Engineered with feature-first GetX architecture over a shared service layer, the application manages real-time bidirectional states with sub-50ms latency across diverse device categories.",
+          "category": "IoT & Platform",
+          "type": "mobileApp",
+          "tags": [
+            "Flutter",
+            "IoT",
+            "Smart Home"
+          ],
+          "domain": "IoT / Smart Automation",
+          "platforms": [],
+          "techStack": [
+            "Flutter",
+            "Dart",
+            "GetX",
+            "REST APIs",
+            "Dio",
+            "WebSockets",
+            "BLE",
+            "TCP / LAN",
+            "Zigbee",
+            "Hive",
+            "FCM",
+            "Local Notifications",
+            "Android / iOS"
+          ],
+          "features": [
+            "Smart Switches & Dimmers",
+            "Curtain & Motor Control",
+            "Real-time WebSocket Sync",
+            "Raw TCP over Local LAN",
+            "BLE Device Provisioning",
+            "Zigbee Gateway Integration",
+            "Environmental Sensors",
+            "Energy Monitoring & History",
+            "Scenes & One-Tap Routines",
+            "IF/THEN Automation Workflows",
+            "Smart Lock Integration",
+            "IR Blaster Controls",
+            "Contactor Panels",
+            "Device Onboarding Wizard",
+            "Offline State Resilience",
+            "Push Notifications (FCM)",
+            "Society Management Integration",
+            "Organization-Driven Theming"
+          ],
+          "responsibilities": [
+            "Implemented core Flutter smart-building mobile experience for Android and iOS.",
+            "Built feature-first architecture with modular GetX controllers and bindings across 250+ files.",
+            "Integrated real-time bidirectional WebSocket broker communication with token authentication.",
+            "Implemented multi-protocol device control: direct raw TCP over local LAN, Bluetooth Low Energy (BLE), and Zigbee gateways.",
+            "Engineered intuitive device-control interfaces for multi-channel switches, dimmers, curtains, IR remotes, and smart locks.",
+            "Developed automation engines, conditional IF/THEN routines, and multi-device scene execution.",
+            "Created seamless step-by-step device onboarding and provisioning wizards.",
+            "Integrated live energy consumption metering, environmental sensor analytics, and usage history charts.",
+            "Implemented robust offline state recovery, local cache fallback, and FCM alert dispatching.",
+            "Developed dynamic white-label runtime theming based on organization profiles."
+          ],
+          "challenges": [],
+          "architecture": {
+            "description": "A multi-tier architecture enabling both direct local hardware communication and cloud broker synchronization. The application layer delegates commands through a unified service abstraction that selects the lowest-latency channel available.",
+            "nodes": [
+              {
+                "id": "flutter_ui",
+                "label": "Flutter UI",
+                "icon": "smartphone",
+                "tech": [
+                  "GetX Views"
+                ]
+              },
+              {
+                "id": "controllers",
+                "label": "GetX Controllers",
+                "icon": "memory",
+                "tech": [
+                  "Reactive State",
+                  "Bindings"
+                ]
+              },
+              {
+                "id": "service_layer",
+                "label": "Service Layer",
+                "icon": "api",
+                "tech": [
+                  "Device Service",
+                  "Auth"
+                ]
+              },
+              {
+                "id": "local_comm",
+                "label": "Local Channels",
+                "icon": "router",
+                "tech": [
+                  "TCP / LAN",
+                  "BLE",
+                  "Zigbee"
+                ]
+              },
+              {
+                "id": "cloud_comm",
+                "label": "Cloud Broker",
+                "icon": "cloud",
+                "tech": [
+                  "REST API",
+                  "WebSocket WSS"
+                ]
+              },
+              {
+                "id": "hardware",
+                "label": "Physical Devices",
+                "icon": "home_iot",
+                "tech": [
+                  "Relays",
+                  "Meters",
+                  "Sensors"
+                ]
+              }
+            ],
+            "connections": [
+              {
+                "fromId": "flutter_ui",
+                "toId": "controllers",
+                "label": ""
+              },
+              {
+                "fromId": "controllers",
+                "toId": "service_layer",
+                "label": ""
+              },
+              {
+                "fromId": "service_layer",
+                "toId": "local_comm",
+                "label": "LAN (Sub-50ms)"
+              },
+              {
+                "fromId": "service_layer",
+                "toId": "cloud_comm",
+                "label": "Remote Access"
+              },
+              {
+                "fromId": "local_comm",
+                "toId": "hardware",
+                "label": ""
+              },
+              {
+                "fromId": "cloud_comm",
+                "toId": "hardware",
+                "label": ""
+              }
+            ]
+          },
+          "workflow": {
+            "description": "The complete lifecycle of real-time device control and automation.",
+            "nodes": [
+              {
+                "id": "resident",
+                "label": "Resident Action",
+                "icon": "person_search",
+                "tech": [
+                  "UI Touch / Scene"
+                ]
+              },
+              {
+                "id": "state_eval",
+                "label": "Local State Update",
+                "icon": "bolt",
+                "tech": [
+                  "GetX Controller"
+                ]
+              },
+              {
+                "id": "transport",
+                "label": "Protocol Dispatch",
+                "icon": "router",
+                "tech": [
+                  "LAN / WebSocket"
+                ]
+              },
+              {
+                "id": "device",
+                "label": "Hardware Execution",
+                "icon": "home_iot",
+                "tech": [
+                  "Switch / Dimmer / Lock"
+                ]
+              },
+              {
+                "id": "sensor",
+                "label": "Telemetry & Energy",
+                "icon": "sensors",
+                "tech": [
+                  "Power / Environmental"
+                ]
+              },
+              {
+                "id": "broker",
+                "label": "Cloud Broker Sync",
+                "icon": "cloud",
+                "tech": [
+                  "State Persistence"
+                ]
+              },
+              {
+                "id": "notify",
+                "label": "Alerts & History",
+                "icon": "notifications_active",
+                "tech": [
+                  "FCM Notification"
+                ]
+              }
+            ],
+            "connections": [
+              {
+                "fromId": "resident",
+                "toId": "state_eval",
+                "label": ""
+              },
+              {
+                "fromId": "state_eval",
+                "toId": "transport",
+                "label": ""
+              },
+              {
+                "fromId": "transport",
+                "toId": "device",
+                "label": ""
+              },
+              {
+                "fromId": "device",
+                "toId": "sensor",
+                "label": ""
+              },
+              {
+                "fromId": "sensor",
+                "toId": "broker",
+                "label": ""
+              },
+              {
+                "fromId": "broker",
+                "toId": "notify",
+                "label": ""
+              }
+            ]
+          },
+          "problem": "Smart home and building automation environments frequently suffer from fragmented device protocols, erratic cloud latency, brittle local connectivity, and inconsistent multi-brand device onboarding. Users struggle with lagging switch controls, complicated scene configurations, and lack of offline operability when internet connectivity drops.",
+          "solution": null,
+          "results": null,
+          "timeline": "2023 - Present",
+          "startDate": null,
+          "completionDate": null,
+          "clientName": null,
+          "companyName": null,
+          "teamSize": 4,
+          "role": "Core Mobile Engineer",
+          "status": "ongoing",
+          "isFeatured": false,
+          "isHidden": false,
+          "displayOrder": null,
+          "websiteLink": "https://smarden.in/",
+          "privacyPolicyLink": "https://smarden.in/privacy-policy/",
+          "aboutLink": "https://smarden.in/about-smarden-the-home-automation-company/",
+          "playStoreLink": null,
+          "appStoreLink": null,
+          "githubLink": null,
+          "videoDemoLink": null,
+          "caseStudyLink": null,
+          "screenshots": [
+            {
+              "imagePath": "assets/images/projects/smarden/prime/1.png",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/smarden/prime/2.png",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/smarden/prime/3.png",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/smarden/prime/4.png",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            }
+          ],
+          "subProjects": []
+        },
+        {
+          "id": "smarden-network",
+          "slug": "smarden-network",
+          "name": "Smarden Network",
+          "tagline": "B2B2C Electrical Products & Partner Network",
+          "description": "A B2B2C electrical-products distribution platform connecting electricians, distributors, architects, and customers through requirements, quotations, orders, payments, and commission workflows.\n\nSmarden Network streamlines complex electrical supply-chain relationships into a structured digital ecosystem. Built with GetX reactive architecture, the platform accommodates distinct presentation shells for client transactions, partner management, and native administrative verification.",
+          "category": "B2B & Distribution",
+          "type": "mobileApp",
+          "tags": [
+            "Flutter",
+            "B2B Platform",
+            "Commerce"
+          ],
+          "domain": "B2B Platform",
+          "platforms": [],
+          "techStack": [
+            "Flutter",
+            "Dart",
+            "GetX",
+            "REST APIs",
+            "Dio",
+            "Secure Storage",
+            "GetStorage",
+            "FCM",
+            "RBAC",
+            "Responsive UI",
+            "Android / iOS"
+          ],
+          "features": [
+            "OTP Authentication & Secure Login",
+            "Multi-Role Partner Onboarding (Electrician, Architect, Distributor)",
+            "Administrative Partner Verification & Approval",
+            "Project Requirement Submission",
+            "Dynamic Quotation Builder & Revision Versions",
+            "Quotation Acceptance & Conversion",
+            "Order Creation & Status Tracking",
+            "Payment Proof Submission & Verification",
+            "Commission Attribution & Earnings History",
+            "Distributor Network Connections",
+            "Field Representative Assignment",
+            "Multi-Workspace & Multi-Account Views",
+            "Comprehensive Role-Based Access Control (RBAC)",
+            "Administrative Management Modules",
+            "Push Notification & Support Ticketing",
+            "Responsive Tablet & Mobile Surfaces"
+          ],
+          "responsibilities": [
+            "Developed complete Flutter application architecture for the B2B2C network platform.",
+            "Engineered GetX controllers, bindings, and services spanning 30+ registered routes and 99 Dart files.",
+            "Implemented partner registration, OTP-based phone authentication, and administrative verification flows.",
+            "Built structured project requirement submission and dynamic multi-version quotation workflows.",
+            "Developed end-to-end order processing, payment receipt proof uploads, and administrative verification.",
+            "Implemented transparent commission calculation, payout attribution, and ledger history.",
+            "Integrated comprehensive client-side Role-Based Access Control (RBAC) supporting 5 distinct user roles.",
+            "Built dedicated administrative modules for partner auditing, quotation adjustments, and dispute handling.",
+            "Connected ~75 REST endpoints via Dio with robust token management, error interceptors, and caching.",
+            "Delivered responsive layouts ensuring smooth usability across varied smartphone and tablet screen sizes."
+          ],
+          "challenges": [],
+          "architecture": {
+            "description": "A multi-role enterprise Flutter architecture utilizing GetX reactive state management. The app encapsulates distinct workflow domains with role-based access control, communicating across ~75 REST endpoints with token authentication and structured caching.",
+            "nodes": [
+              {
+                "id": "client_shell",
+                "label": "Client / Partner Shell",
+                "icon": "smartphone",
+                "tech": [
+                  "Electrician / Architect / Distributor"
+                ]
+              },
+              {
+                "id": "admin_shell",
+                "label": "Admin Panel Shell",
+                "icon": "admin_panel_settings",
+                "tech": [
+                  "Audits & Approvals"
+                ]
+              },
+              {
+                "id": "rbac",
+                "label": "RBAC Permission Engine",
+                "icon": "security",
+                "tech": [
+                  "90+ Permission Constants"
+                ]
+              },
+              {
+                "id": "controllers",
+                "label": "GetX Controllers",
+                "icon": "memory",
+                "tech": [
+                  "24 Reactive Controllers"
+                ]
+              },
+              {
+                "id": "api_layer",
+                "label": "REST Service Layer",
+                "icon": "api",
+                "tech": [
+                  "Dio ~75 Endpoints"
+                ]
+              },
+              {
+                "id": "backend",
+                "label": "Enterprise Backend",
+                "icon": "cloud",
+                "tech": [
+                  "Orders & Ledger"
+                ]
+              }
+            ],
+            "connections": [
+              {
+                "fromId": "client_shell",
+                "toId": "rbac",
+                "label": ""
+              },
+              {
+                "fromId": "admin_shell",
+                "toId": "rbac",
+                "label": ""
+              },
+              {
+                "fromId": "rbac",
+                "toId": "controllers",
+                "label": "Enforced Access"
+              },
+              {
+                "fromId": "controllers",
+                "toId": "api_layer",
+                "label": "Authenticated Requests"
+              },
+              {
+                "fromId": "api_layer",
+                "toId": "backend",
+                "label": "Sync Pipeline"
+              }
+            ]
+          },
+          "workflow": {
+            "description": "The end-to-end B2B partner distribution and commission pipeline.",
+            "nodes": [
+              {
+                "id": "register",
+                "label": "Partner Onboarding",
+                "icon": "person_search",
+                "tech": [
+                  "OTP Authentication"
+                ]
+              },
+              {
+                "id": "approval",
+                "label": "Admin Verification",
+                "icon": "admin_panel_settings",
+                "tech": [
+                  "Partner Approval"
+                ]
+              },
+              {
+                "id": "req",
+                "label": "Requirement Submission",
+                "icon": "add_box",
+                "tech": [
+                  "Project Specs"
+                ]
+              },
+              {
+                "id": "quote",
+                "label": "Quotation Generation",
+                "icon": "receipt_long",
+                "tech": [
+                  "Versioned Quotes"
+                ]
+              },
+              {
+                "id": "accept",
+                "label": "Quotation Acceptance",
+                "icon": "check_circle",
+                "tech": [
+                  "Client Confirmation"
+                ]
+              },
+              {
+                "id": "order",
+                "label": "Order Processing",
+                "icon": "inventory",
+                "tech": [
+                  "Fulfillment Pipeline"
+                ]
+              },
+              {
+                "id": "payment",
+                "label": "Payment Proof Upload",
+                "icon": "payments",
+                "tech": [
+                  "Verification / Audit"
+                ]
+              },
+              {
+                "id": "delivery",
+                "label": "Order Delivery",
+                "icon": "local_shipping",
+                "tech": [
+                  "Transit & Dispatch"
+                ]
+              },
+              {
+                "id": "commission",
+                "label": "Commission Attribution",
+                "icon": "task_alt",
+                "tech": [
+                  "Partner Payouts"
+                ]
+              }
+            ],
+            "connections": [
+              {
+                "fromId": "register",
+                "toId": "approval",
+                "label": ""
+              },
+              {
+                "fromId": "approval",
+                "toId": "req",
+                "label": ""
+              },
+              {
+                "fromId": "req",
+                "toId": "quote",
+                "label": ""
+              },
+              {
+                "fromId": "quote",
+                "toId": "accept",
+                "label": ""
+              },
+              {
+                "fromId": "accept",
+                "toId": "order",
+                "label": ""
+              },
+              {
+                "fromId": "order",
+                "toId": "payment",
+                "label": ""
+              },
+              {
+                "fromId": "payment",
+                "toId": "delivery",
+                "label": ""
+              },
+              {
+                "fromId": "delivery",
+                "toId": "commission",
+                "label": ""
+              }
+            ]
+          },
+          "problem": "The electrical distribution and contractor ecosystem in India operates largely through unorganized offline channels: handwritten requirement slips, verbal price quotations, unverified manual payment receipts, and disputed commission tracking. Electricians, architects, and distributors face immense friction in quoting accurate prices, managing order fulfillment, and verifying payment transactions transparently.",
+          "solution": null,
+          "results": null,
+          "timeline": "2024 - Present",
+          "startDate": null,
+          "completionDate": null,
+          "clientName": null,
+          "companyName": null,
+          "teamSize": 3,
+          "role": "Flutter Developer",
+          "status": "ongoing",
+          "isFeatured": false,
+          "isHidden": false,
+          "displayOrder": null,
+          "websiteLink": "https://smarden.in/",
+          "privacyPolicyLink": "https://smarden.in/privacy-policy/",
+          "aboutLink": "https://smarden.in/about-smarden-the-home-automation-company/",
+          "playStoreLink": null,
+          "appStoreLink": null,
+          "githubLink": null,
+          "videoDemoLink": null,
+          "caseStudyLink": null,
+          "screenshots": [
+            {
+              "imagePath": "assets/images/projects/smarden/network/1.png",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/smarden/network/2.png",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/smarden/network/3.png",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            },
+            {
+              "imagePath": "assets/images/projects/smarden/network/4.png",
+              "title": "",
+              "description": "",
+              "deviceType": "mobile",
+              "orientation": "portrait",
+              "isFeatured": false
+            }
+          ],
+          "subProjects": []
+        }
+      ]
+    },
+    {
+      "id": "nutmeg",
+      "slug": "nutmeg",
+      "name": "Nutmeg Buyer Platform",
+      "tagline": "B2B Wholesale Procurement Marketplace",
+      "description": "A wholesale procurement marketplace connecting buyers with suppliers, enabling catalog browsing, order management, bidding workflows, supplier communication, and payment processing.",
+      "category": "Marketplace",
+      "type": "mobileApp",
+      "tags": [
+        "Flutter",
+        "Dart"
+      ],
+      "domain": "B2B Marketplace (USA)",
+      "platforms": [],
+      "techStack": [
+        "Flutter",
+        "Dart",
+        "Bloc",
+        "Cubit",
+        "Firebase",
+        "FCM",
+        "Stripe",
+        "Socket.IO",
+        "REST APIs",
+        "Charts"
+      ],
+      "features": [
+        "Catalog Browsing & Discovery",
+        "Shopping Cart & Order Conversion",
+        "Stripe Payments",
+        "Invoice Generation",
+        "Supplier Bid Requests",
+        "Real-time Chat via Socket.IO"
+      ],
+      "responsibilities": [
+        "Developed buyer-side marketplace experience.",
+        "Built catalog browsing and product discovery workflows.",
+        "Integrated Stripe payment processing and invoice generation.",
+        "Developed real-time supplier communication using Socket.IO.",
+        "Built reusable UI component systems."
+      ],
+      "challenges": [
+        "Managing complex local cart state with offline support and synchronizing it with the server upon reconnection.",
+        "Implementing secure and seamless 3D Secure payment flows within the app using Stripe."
+      ],
+      "architecture": {
+        "description": "Clean Architecture with Bloc/Cubit for robust and predictable state management. Segregated into Domain, Data, and Presentation layers.",
+        "nodes": [
+          {
+            "id": "app",
+            "label": "Buyer App",
+            "icon": "smartphone",
+            "tech": [
+              "Flutter",
+              "Bloc/Cubit"
+            ]
+          },
+          {
+            "id": "api",
+            "label": "Commerce API",
+            "icon": "shopping_cart",
+            "tech": [
+              "REST APIs"
+            ]
+          },
+          {
+            "id": "stripe",
+            "label": "Stripe API",
+            "icon": "payments",
+            "tech": [
+              "Payment Gateway"
+            ]
+          },
+          {
+            "id": "socket",
+            "label": "Realtime Chat",
+            "icon": "bolt",
+            "tech": [
+              "Socket.IO"
+            ]
+          }
+        ],
+        "connections": [
+          {
+            "fromId": "app",
+            "toId": "api",
+            "label": "HTTPS"
+          },
+          {
+            "fromId": "app",
+            "toId": "stripe",
+            "label": "Payment Intent"
+          },
+          {
+            "fromId": "app",
+            "toId": "socket",
+            "label": "WSS"
+          }
+        ]
+      },
+      "workflow": null,
+      "problem": "B2B wholesale buyers lacked a unified, mobile-first platform to discover suppliers, manage large catalog orders, negotiate bids, and process enterprise-scale payments securely. Traditional methods relied on fragmented emails, spreadsheets, and manual invoicing, leading to high friction, delayed payments, and poor order tracking.",
+      "solution": "Engineered a comprehensive Flutter-based B2B marketplace application using Clean Architecture and Bloc/Cubit for scalable state management. The solution integrates a dynamic catalog browsing experience with complex local cart state management that handles offline scenarios and server synchronization. Integrated Stripe for secure, 3D Secure compliant enterprise payments and automated invoice generation. Built a real-time bidding and negotiation system backed by Socket.IO for instant supplier-buyer communication.",
+      "results": "Successfully launched a production-grade marketplace that processes high-volume B2B transactions. The robust Bloc architecture reduced state-related bugs by 40% and improved application performance during heavy catalog browsing. The integrated Stripe flow decreased payment processing time, and the real-time bidding system increased buyer-supplier engagement significantly.",
+      "timeline": "2023 - 2024",
+      "startDate": null,
+      "completionDate": null,
+      "clientName": null,
+      "companyName": null,
+      "teamSize": 6,
+      "role": "Senior Flutter Developer",
+      "status": "completed",
+      "isFeatured": true,
+      "isHidden": false,
+      "displayOrder": null,
+      "websiteLink": null,
+      "privacyPolicyLink": null,
+      "aboutLink": null,
+      "playStoreLink": null,
+      "appStoreLink": null,
+      "githubLink": null,
+      "videoDemoLink": null,
+      "caseStudyLink": null,
+      "screenshots": [
+        {
+          "imagePath": "assets/images/projects/nutmeg/screenshots/1.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/nutmeg/screenshots/2.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/nutmeg/screenshots/3.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/nutmeg/screenshots/4.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/nutmeg/screenshots/5.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/nutmeg/screenshots/6.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/nutmeg/screenshots/7.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/nutmeg/screenshots/8.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/nutmeg/screenshots/9.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/nutmeg/screenshots/10.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        }
+      ],
+      "subProjects": []
+    },
+    {
+      "id": "scanomat",
+      "slug": "scanomat",
+      "name": "TopHealth / Scanomat",
+      "tagline": "Enterprise IoT Platform",
+      "description": "A connected device ecosystem consisting of mobile applications and enterprise administration portals for monitoring and managing smart beverage and health devices.",
+      "category": "Enterprise",
+      "type": "webApp",
+      "tags": [
+        "Flutter",
+        "Dart"
+      ],
+      "domain": "Enterprise IoT Platform",
+      "platforms": [],
+      "techStack": [
+        "Flutter",
+        "Flutter Web",
+        "Dart",
+        "REST APIs",
+        "WebSocket",
+        "Razorpay",
+        "RBAC"
+      ],
+      "features": [
+        "Flutter Web Administration",
+        "RBAC (Role-Based Access Control)",
+        "WebSocket Machine Telemetry",
+        "IoT Monitoring Dashboards",
+        "Razorpay Integration"
+      ],
+      "responsibilities": [
+        "Contributed to Flutter mobile applications.",
+        "Developed Flutter Web administration features.",
+        "Built machine monitoring dashboards and WebSocket telemetry.",
+        "Implemented role-based access control (RBAC).",
+        "Integrated Razorpay payment solutions."
+      ],
+      "challenges": [
+        "Handling high-frequency WebSocket data streams from IoT devices and rendering them on dashboards without freezing the UI thread.",
+        "Implementing fine-grained Role-Based Access Control across multiple organizations and machine fleets."
+      ],
+      "architecture": {
+        "description": "Modular Architecture separating device communication, administration interfaces, and payment workflows. Uses WebSockets for real-time machine telemetry.",
+        "nodes": [
+          {
+            "id": "app",
+            "label": "Mobile App",
+            "icon": "smartphone",
+            "tech": [
+              "Flutter"
+            ]
+          },
+          {
+            "id": "web",
+            "label": "Admin Dashboard",
+            "icon": "dashboard",
+            "tech": [
+              "Flutter Web"
+            ]
+          },
+          {
+            "id": "iot",
+            "label": "IoT Devices",
+            "icon": "memory",
+            "tech": [
+              "WebSocket"
+            ]
+          },
+          {
+            "id": "api",
+            "label": "Enterprise API",
+            "icon": "dns",
+            "tech": [
+              "REST APIs",
+              "RBAC"
+            ]
+          }
+        ],
+        "connections": [
+          {
+            "fromId": "app",
+            "toId": "api",
+            "label": "HTTPS"
+          },
+          {
+            "fromId": "web",
+            "toId": "api",
+            "label": "HTTPS"
+          },
+          {
+            "fromId": "api",
+            "toId": "iot",
+            "label": "WSS Telemetry"
+          }
+        ]
+      },
+      "workflow": null,
+      "problem": null,
+      "solution": null,
+      "results": null,
+      "timeline": "2023",
+      "startDate": null,
+      "completionDate": null,
+      "clientName": null,
+      "companyName": null,
+      "teamSize": 8,
+      "role": "Frontend & Web Developer",
+      "status": "completed",
+      "isFeatured": true,
+      "isHidden": false,
+      "displayOrder": null,
+      "websiteLink": null,
+      "privacyPolicyLink": null,
+      "aboutLink": null,
+      "playStoreLink": null,
+      "appStoreLink": null,
+      "githubLink": null,
+      "videoDemoLink": null,
+      "caseStudyLink": null,
+      "screenshots": [
+        {
+          "imagePath": "assets/images/projects/top-health/top-health-1.webp",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/top-health/top-health-2.webp",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/top-health/top-health-3.webp",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/top-health/top-health-4.webp",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/top-health/top-health-5.webp",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/top-health/top-health-6.webp",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/top-health/top-health-7.webp",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/top-health/top-health-8.webp",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        }
+      ],
+      "subProjects": []
+    },
+    {
+      "id": "speakpro",
+      "slug": "speakpro",
+      "name": "SpeakPro AI",
+      "tagline": "AI-Powered English Learning Platform",
+      "description": "An AI-assisted spoken English learning application combining real human conversations with speech analytics and personalized learning experiences.",
+      "category": "AI",
+      "type": "mobileApp",
+      "tags": [
+        "Flutter",
+        "Dart"
+      ],
+      "domain": "AI Learning",
+      "platforms": [],
+      "techStack": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "FCM",
+        "REST APIs",
+        "In-App Purchases",
+        "Speech-to-Text",
+        "Analytics"
+      ],
+      "features": [
+        "AI Speech Analytics",
+        "Learning & Engagement Workflows",
+        "Streak & Leaderboard Systems",
+        "Subscription Management",
+        "In-App Purchases",
+        "Firebase Notifications"
+      ],
+      "responsibilities": [
+        "Developed learning and engagement workflows.",
+        "Implemented progress tracking and streak systems.",
+        "Integrated in-app purchases and subscriptions.",
+        "Built reusable UI systems."
+      ],
+      "challenges": [
+        "Creating a seamless, low-latency audio recording and processing pipeline for real-time speech analytics.",
+        "Implementing complex subscription logic with cross-platform in-app purchases and receipt validation."
+      ],
+      "architecture": {
+        "description": "Clean Architecture with Firebase backend. Uses local caching for offline progress tracking and syncs with Firestore when online.",
+        "nodes": [
+          {
+            "id": "app",
+            "label": "Flutter App",
+            "icon": "smartphone",
+            "tech": [
+              "Flutter",
+              "Clean Architecture"
+            ]
+          },
+          {
+            "id": "auth",
+            "label": "Firebase Auth",
+            "icon": "security",
+            "tech": [
+              "Firebase"
+            ]
+          },
+          {
+            "id": "db",
+            "label": "Firestore",
+            "icon": "database",
+            "tech": [
+              "NoSQL",
+              "Sync"
+            ]
+          },
+          {
+            "id": "ai",
+            "label": "AI Speech Engine",
+            "icon": "record_voice_over",
+            "tech": [
+              "Speech-to-Text"
+            ]
+          }
+        ],
+        "connections": [
+          {
+            "fromId": "app",
+            "toId": "auth",
+            "label": "Authenticate"
+          },
+          {
+            "fromId": "app",
+            "toId": "db",
+            "label": "Read/Write Progress"
+          },
+          {
+            "fromId": "app",
+            "toId": "ai",
+            "label": "Audio Stream"
+          }
+        ]
+      },
+      "workflow": null,
+      "problem": null,
+      "solution": null,
+      "results": null,
+      "timeline": "2022",
+      "startDate": null,
+      "completionDate": null,
+      "clientName": null,
+      "companyName": null,
+      "teamSize": 3,
+      "role": "Mobile Engineer",
+      "status": "completed",
+      "isFeatured": true,
+      "isHidden": false,
+      "displayOrder": null,
+      "websiteLink": null,
+      "privacyPolicyLink": null,
+      "aboutLink": null,
+      "playStoreLink": null,
+      "appStoreLink": null,
+      "githubLink": null,
+      "videoDemoLink": null,
+      "caseStudyLink": null,
+      "screenshots": [
+        {
+          "imagePath": "assets/images/projects/speak-pro-ai/screenshorts/1.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/speak-pro-ai/screenshorts/2.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/speak-pro-ai/screenshorts/3.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/speak-pro-ai/screenshorts/4.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/speak-pro-ai/screenshorts/5.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/speak-pro-ai/screenshorts/6.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/speak-pro-ai/screenshorts/7.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/speak-pro-ai/screenshorts/8.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/speak-pro-ai/screenshorts/10.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/speak-pro-ai/screenshorts/11.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/speak-pro-ai/screenshorts/12.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/speak-pro-ai/screenshorts/13.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/speak-pro-ai/screenshorts/14.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/speak-pro-ai/screenshorts/15.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/speak-pro-ai/screenshorts/16.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/speak-pro-ai/screenshorts/17.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/speak-pro-ai/screenshorts/18.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        }
+      ],
+      "subProjects": []
+    },
+    {
+      "id": "jaapsadhana",
+      "slug": "jaapsadhana",
+      "name": "Jaap Sadhana",
+      "tagline": "Spiritual & Meditation Platform",
+      "description": "A premium spiritual application for mantra tracking, statistics, and theme management.",
+      "category": "Consumer",
+      "type": "mobileApp",
+      "tags": [
+        "Flutter",
+        "Dart"
+      ],
+      "domain": "Consumer / Spiritual",
+      "platforms": [],
+      "techStack": [
+        "Flutter",
+        "GetX",
+        "Hive"
+      ],
+      "features": [
+        "Daily Mantra Tracking",
+        "Statistics Dashboards",
+        "Theme Management",
+        "Local Notifications",
+        "Offline Persistence"
+      ],
+      "responsibilities": [
+        "Developed responsive premium UI.",
+        "Implemented offline persistence with Hive.",
+        "Built local notification workflows."
+      ],
+      "challenges": [
+        "Optimizing Hive storage to handle years of daily mantra tracking statistics without slowing down the initial app load time."
+      ],
+      "architecture": {
+        "description": "Offline-first MVC architecture using GetX for routing/state and Hive for fast local data persistence. Includes background isolates for scheduling local notifications.",
+        "nodes": [
+          {
+            "id": "app",
+            "label": "Flutter App",
+            "icon": "smartphone",
+            "tech": [
+              "Flutter",
+              "GetX"
+            ]
+          },
+          {
+            "id": "storage",
+            "label": "Local Storage",
+            "icon": "storage",
+            "tech": [
+              "Hive NoSQL"
+            ]
+          },
+          {
+            "id": "bg",
+            "label": "Background Service",
+            "icon": "schedule",
+            "tech": [
+              "Local Notifications"
+            ]
+          }
+        ],
+        "connections": [
+          {
+            "fromId": "app",
+            "toId": "storage",
+            "label": "Read/Write"
+          },
+          {
+            "fromId": "app",
+            "toId": "bg",
+            "label": "Schedule"
+          }
+        ]
+      },
+      "workflow": null,
+      "problem": null,
+      "solution": null,
+      "results": null,
+      "timeline": "2021",
+      "startDate": null,
+      "completionDate": null,
+      "clientName": null,
+      "companyName": null,
+      "teamSize": 2,
+      "role": "Mobile Engineer",
+      "status": "completed",
+      "isFeatured": true,
+      "isHidden": false,
+      "displayOrder": null,
+      "websiteLink": null,
+      "privacyPolicyLink": null,
+      "aboutLink": null,
+      "playStoreLink": null,
+      "appStoreLink": null,
+      "githubLink": null,
+      "videoDemoLink": null,
+      "caseStudyLink": null,
+      "screenshots": [
+        {
+          "imagePath": "assets/images/projects/jaap-sadhana/screenshorts/1.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/jaap-sadhana/screenshorts/2.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/jaap-sadhana/screenshorts/3.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/jaap-sadhana/screenshorts/4.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/jaap-sadhana/screenshorts/5.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/jaap-sadhana/screenshorts/6.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/jaap-sadhana/screenshorts/7.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/jaap-sadhana/screenshorts/8.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/jaap-sadhana/screenshorts/9.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        }
+      ],
+      "subProjects": []
+    },
+    {
+      "id": "soundspy",
+      "slug": "soundspy",
+      "name": "Sound Spy / GiggleGrid",
+      "tagline": "Consumer Entertainment Applications",
+      "description": "Consumer applications featuring audio playback systems, category management, and favorites.",
+      "category": "Entertainment",
+      "type": "mobileApp",
+      "tags": [
+        "Flutter",
+        "Dart"
+      ],
+      "domain": "Consumer / Entertainment",
+      "platforms": [],
+      "techStack": [
+        "Flutter",
+        "Firebase",
+        "Supabase",
+        "Hive"
+      ],
+      "features": [
+        "Audio Playback Systems",
+        "Category Management",
+        "Favorites",
+        "Modern UI Systems"
+      ],
+      "responsibilities": [
+        "Integrated Firebase and Supabase for backend services.",
+        "Developed audio playback interfaces and systems.",
+        "Built modern consumer-facing UI."
+      ],
+      "challenges": [
+        "Managing concurrent audio streams and ensuring seamless playback when switching between media categories rapidly."
+      ],
+      "architecture": {
+        "description": "Modular architecture separating audio processing logic from the UI. Integrates Firebase and Supabase for media asset management and user preferences.",
+        "nodes": [
+          {
+            "id": "app",
+            "label": "Flutter UI",
+            "icon": "smartphone",
+            "tech": [
+              "Flutter"
+            ]
+          },
+          {
+            "id": "audio",
+            "label": "Audio Engine",
+            "icon": "headphones",
+            "tech": [
+              "Just Audio"
+            ]
+          },
+          {
+            "id": "backend",
+            "label": "Backend APIs",
+            "icon": "cloud",
+            "tech": [
+              "Firebase",
+              "Supabase"
+            ]
+          }
+        ],
+        "connections": [
+          {
+            "fromId": "app",
+            "toId": "audio",
+            "label": "Control Playback"
+          },
+          {
+            "fromId": "app",
+            "toId": "backend",
+            "label": "Fetch Assets"
+          }
+        ]
+      },
+      "workflow": null,
+      "problem": null,
+      "solution": null,
+      "results": null,
+      "timeline": "2021",
+      "startDate": null,
+      "completionDate": null,
+      "clientName": null,
+      "companyName": null,
+      "teamSize": 2,
+      "role": "Mobile Developer",
+      "status": "completed",
+      "isFeatured": false,
+      "isHidden": false,
+      "displayOrder": null,
+      "websiteLink": null,
+      "privacyPolicyLink": null,
+      "aboutLink": null,
+      "playStoreLink": null,
+      "appStoreLink": null,
+      "githubLink": null,
+      "videoDemoLink": null,
+      "caseStudyLink": null,
+      "screenshots": [],
+      "subProjects": []
+    },
+    {
+      "id": "clickbacon",
+      "slug": "clickbacon",
+      "name": "clickBACON",
+      "tagline": "Restaurant Financial Management Platform",
+      "description": "Built from scratch for independent restaurant operators to manage budgets, revenue, CoGS, labor, prime cost, reporting, QuickBooks synchronization, and AI-powered expense processing.",
+      "category": "Hospitality",
+      "type": "mobileApp",
+      "tags": [
+        "Flutter",
+        "Finance",
+        "Restaurant"
+      ],
+      "domain": "Restaurant / Hospitality Financial Management",
+      "platforms": [],
+      "techStack": [
+        "Flutter",
+        "Dart",
+        "QuickBooks Online API",
+        "AI Data Extraction",
+        "POS Data Integration"
+      ],
+      "features": [
+        "Budget Management",
+        "Revenue Tracking",
+        "Cost of Goods Sold (CoGS)",
+        "Labor Tracking",
+        "Prime Cost Monitoring",
+        "Food Expense Tracking",
+        "Liquor Expense Tracking",
+        "Labor Expense Tracking",
+        "Real-Time Metrics",
+        "Advanced Reporting",
+        "Dashboard",
+        "QuickBooks Online Two-Way Sync",
+        "Purchase Data Synchronization",
+        "Expense Data Synchronization",
+        "AI-Powered Expense Upload",
+        "Expense Data Extraction",
+        "QuickBooks Expense Submission"
+      ],
+      "responsibilities": [
+        "Originally developed the clickBACON mobile application from scratch, building the product's core Flutter experience for restaurant operators and integrating the major financial-management workflows.",
+        "Developed restaurant financial-management workflows.",
+        "Implemented budgeting and financial tracking interfaces.",
+        "Built revenue and expense management UI.",
+        "Implemented reporting/dashboard experiences.",
+        "Worked on QuickBooks-related integration workflows.",
+        "Implemented AI-powered expense processing workflow.",
+        "Built responsive mobile UI.",
+        "Developed reusable application components.",
+        "Worked on production-ready application flows."
+      ],
+      "challenges": [],
+      "architecture": {
+        "description": "Designed as a two-way synchronization ecosystem. clickBACON bridges POS data flows and QuickBooks Online while leveraging AI processing for automated expense extraction.",
+        "nodes": [
+          {
+            "id": "app",
+            "label": "Flutter App",
+            "icon": "smartphone",
+            "tech": [
+              "Mobile Client"
+            ]
+          },
+          {
+            "id": "qb",
+            "label": "QuickBooks Online",
+            "icon": "sync",
+            "tech": [
+              "Two-Way Sync"
+            ]
+          },
+          {
+            "id": "ai",
+            "label": "AI Processing",
+            "icon": "auto_awesome",
+            "tech": [
+              "Expense Extraction"
+            ]
+          },
+          {
+            "id": "pos",
+            "label": "POS Integration",
+            "icon": "point_of_sale",
+            "tech": [
+              "Revenue Data"
+            ]
+          }
+        ],
+        "connections": [
+          {
+            "fromId": "app",
+            "toId": "ai",
+            "label": "Upload Expense"
+          },
+          {
+            "fromId": "ai",
+            "toId": "app",
+            "label": "Extracted Data"
+          },
+          {
+            "fromId": "app",
+            "toId": "qb",
+            "label": "Sync Financials"
+          },
+          {
+            "fromId": "pos",
+            "toId": "app",
+            "label": "Pull Revenue"
+          }
+        ]
+      },
+      "workflow": null,
+      "problem": "Restaurant operators often struggle with manual bookkeeping, tracking prime costs, managing multiple financial workflows, and synchronizing POS/expense data with QuickBooks. The lack of a unified digital system leads to manual errors, wasted time, and poor financial visibility.",
+      "solution": null,
+      "results": null,
+      "timeline": "May 2020 - Present",
+      "startDate": null,
+      "completionDate": null,
+      "clientName": null,
+      "companyName": null,
+      "teamSize": 1,
+      "role": "Original Developer",
+      "status": "ongoing",
+      "isFeatured": true,
+      "isHidden": false,
+      "displayOrder": null,
+      "websiteLink": "https://clickbacon.com",
+      "privacyPolicyLink": null,
+      "aboutLink": null,
+      "playStoreLink": "https://play.google.com/store/apps/details?id=com.clickbacon.quasar&pcampaignid=web_share",
+      "appStoreLink": null,
+      "githubLink": null,
+      "videoDemoLink": null,
+      "caseStudyLink": null,
+      "screenshots": [
+        {
+          "imagePath": "assets/images/projects/clickbacon/1.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/clickbacon/2.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/clickbacon/3.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/clickbacon/4.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/clickbacon/5.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/clickbacon/6.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/clickbacon/7.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/clickbacon/8.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/clickbacon/9.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/clickbacon/10.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/clickbacon/11.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/clickbacon/12.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/clickbacon/13.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/clickbacon/14.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        }
+      ],
+      "subProjects": []
+    },
+    {
+      "id": "unlock-fit",
+      "slug": "unlock-fit",
+      "name": "Unlock.fit",
+      "tagline": "Personalized Genetic Health & Wellness Platform",
+      "description": "A cross-platform Flutter health and wellness application built around personalized genetic and health insights, connecting testing, health profiles, personalized plans, expert consultations, reports, and progress tracking in one user experience.",
+      "category": "Health & Wellness",
+      "type": "mobileApp",
+      "tags": [
+        "Flutter",
+        "Health",
+        "Wellness",
+        "Genetics"
+      ],
+      "domain": "Health & Wellness",
+      "platforms": [],
+      "techStack": [
+        "Flutter",
+        "Dart",
+        "Provider",
+        "GetX",
+        "REST API",
+        "Dio",
+        "http",
+        "Firebase Analytics",
+        "Firebase Crashlytics",
+        "Firebase Cloud Messaging",
+        "Firebase Remote Config",
+        "Firebase Performance",
+        "Razorpay",
+        "Image Picker",
+        "Image Cropper",
+        "File Picker",
+        "Video Playback",
+        "Geolocator",
+        "Geocoding",
+        "Location",
+        "Syncfusion Charts",
+        "Syncfusion PDF Viewer",
+        "MoEngage",
+        "App Links",
+        "Shared Preferences",
+        "Internal Storage"
+      ],
+      "features": [
+        "Login",
+        "Signup",
+        "Family registration",
+        "DNA test ordering",
+        "Blood test workflow",
+        "Test-related information",
+        "Health assessment",
+        "Health profile",
+        "Health insights",
+        "Personalized wellness information",
+        "Health reports",
+        "Blood test reports",
+        "PDF report viewing",
+        "Progress indicators",
+        "Personalized diet plans",
+        "Fitness plans",
+        "Workout videos",
+        "Progress tracking",
+        "One-on-one consultation",
+        "Booking workflow",
+        "Appointment/booking management",
+        "Razorpay payment integration",
+        "Chat",
+        "Nora assistant/automated assistant functionality",
+        "Firebase Cloud Messaging",
+        "MoEngage engagement/notifications",
+        "User profile",
+        "Profile management",
+        "Personalized home/dashboard",
+        "Health metrics",
+        "Progress information",
+        "Offline mode handling",
+        "Camera",
+        "Image selection",
+        "Image cropping",
+        "File selection",
+        "File downloads/uploads",
+        "Location services",
+        "Geocoding",
+        "Geolocation"
+      ],
+      "responsibilities": [
+        "Worked as a core Flutter developer on Unlock.fit and built the majority of the cross-platform application from the ground up, covering its major user journeys, UI, integrations, and health/wellness workflows.",
+        "Built the majority of the Flutter application from scratch.",
+        "Developed cross-platform iOS and Android experiences.",
+        "Built authentication and registration workflows.",
+        "Developed DNA test ordering workflows.",
+        "Developed health assessment and health profile experiences.",
+        "Built health insights and report screens.",
+        "Developed personalized diet plan experiences.",
+        "Developed fitness and workout experiences.",
+        "Built consultation and booking workflows.",
+        "Integrated Razorpay payments.",
+        "Integrated REST APIs.",
+        "Implemented Firebase push notifications.",
+        "Worked with Firebase Analytics/Crashlytics and related services.",
+        "Built dashboards and data visualization.",
+        "Implemented chart-based progress views.",
+        "Implemented PDF report viewing.",
+        "Built camera and file-upload workflows.",
+        "Implemented location-aware functionality.",
+        "Built chat functionality.",
+        "Worked on the in-app assistant experience.",
+        "Implemented offline connectivity handling.",
+        "Worked on local persistence.",
+        "Implemented deep-linking functionality.",
+        "Built reusable Flutter UI components.",
+        "Maintained responsive layouts across iOS and Android."
+      ],
+      "challenges": [],
+      "architecture": {
+        "description": "Modular, feature-based Flutter architecture using Provider for state management. Provider is the primary state-management approach, with GetX used within the application infrastructure/routing.",
+        "nodes": [
+          {
+            "id": "app",
+            "label": "Flutter App",
+            "icon": "smartphone",
+            "tech": [
+              "Provider",
+              "GetX"
+            ]
+          },
+          {
+            "id": "api",
+            "label": "REST APIs",
+            "icon": "api",
+            "tech": [
+              "Dio",
+              "http"
+            ]
+          },
+          {
+            "id": "firebase",
+            "label": "Firebase",
+            "icon": "cloud",
+            "tech": [
+              "Analytics",
+              "Crashlytics",
+              "FCM"
+            ]
+          }
+        ],
+        "connections": [
+          {
+            "fromId": "app",
+            "toId": "api",
+            "label": "Network"
+          },
+          {
+            "fromId": "app",
+            "toId": "firebase",
+            "label": "Services"
+          }
+        ]
+      },
+      "workflow": null,
+      "problem": null,
+      "solution": null,
+      "results": null,
+      "timeline": "April 2021",
+      "startDate": null,
+      "completionDate": null,
+      "clientName": null,
+      "companyName": null,
+      "teamSize": 2,
+      "role": "Core Flutter Developer",
+      "status": "completed",
+      "isFeatured": true,
+      "isHidden": false,
+      "displayOrder": null,
+      "websiteLink": "https://www.unlock.fit/",
+      "privacyPolicyLink": null,
+      "aboutLink": null,
+      "playStoreLink": "https://play.google.com/store/apps/details?id=com.unlock.fit",
+      "appStoreLink": null,
+      "githubLink": null,
+      "videoDemoLink": null,
+      "caseStudyLink": null,
+      "screenshots": [
+        {
+          "imagePath": "assets/images/projects/unloackfit/1.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/unloackfit/2.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/unloackfit/3.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/unloackfit/4.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/unloackfit/5.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/unloackfit/6.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/unloackfit/7.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/unloackfit/8.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/unloackfit/9.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/unloackfit/10.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        }
+      ],
+      "subProjects": []
+    },
+    {
+      "id": "triple-8-go",
+      "slug": "triple-8-go",
+      "name": "Triple 8 Go",
+      "tagline": "Production Logistics & Driver Operations Platform",
+      "description": "Triple 8 Go is the driver-facing mobile application for Triple Eight Transport Inc., connecting drivers with the company's transportation management workflows. The application brings trip execution, stop management, background location tracking, paperwork, digital signing, settlements, trip-pay workflows, leave management, expenses, fuel information, notifications, support, and carrier operations into one cross-platform Flutter experience.",
+      "category": "Logistics",
+      "type": "mobileApp",
+      "tags": [
+        "Flutter",
+        "Logistics",
+        "Driver Operations"
+      ],
+      "domain": "Logistics / Transportation / Driver Operations",
+      "platforms": [],
+      "techStack": [
+        "Dart",
+        "Flutter",
+        "GetX",
+        "MVC with Bindings",
+        "Dio",
+        "http",
+        "fpdart",
+        "REST APIs",
+        "Firebase Cloud Messaging",
+        "Firebase Crashlytics",
+        "Firebase Database",
+        "Geolocator",
+        "Geocoding",
+        "Flutter Background Service",
+        "Connectivity Plus",
+        "Google Maps",
+        "Map Launcher",
+        "OpenCV",
+        "Edge Detection",
+        "Document Scanner",
+        "PDF",
+        "Syncfusion PDF Viewer",
+        "Image Picker",
+        "Image Cropper",
+        "File Picker",
+        "Image Compression",
+        "Firebase Messaging",
+        "Local Notifications",
+        "Syncfusion Charts",
+        "Syncfusion Date Picker",
+        "Lottie",
+        "Cached Network Image",
+        "Flutter SVG"
+      ],
+      "features": [
+        "Driver authentication",
+        "Multi-role login",
+        "Dispatch dashboard",
+        "Current trip",
+        "Previous/current/next orders",
+        "Accept / decline loads",
+        "Structured decline reasons",
+        "Stop arrival/departure",
+        "Route navigation",
+        "Background GPS tracking",
+        "Offline location buffering",
+        "Automatic location synchronization",
+        "Document scanning",
+        "PDF generation",
+        "Paperwork upload",
+        "DocuSign",
+        "Settlements",
+        "Pay stubs",
+        "Trip Pay",
+        "Exception Pay Requests",
+        "EPR history",
+        "Leave requests",
+        "Expense/invoice submission",
+        "Fuel prices",
+        "Fuel station map",
+        "Asset tracking",
+        "Reefer temperature",
+        "Push notifications",
+        "Notification deep linking",
+        "Support requests",
+        "Driver profile",
+        "Carrier/broker workflows"
+      ],
+      "responsibilities": [
+        "Worked as a core Flutter developer on Triple 8 Go, building and extending major parts of the production driver application, including trip execution, logistics workflows, document handling, location tracking, payments-related workflows, notifications, and operational tools.",
+        "Built and extended major parts of the production Flutter application and its driver-facing workflows.",
+        "Developed and rebuilt complex current-trip and route-stop experiences for real-world dispatch execution.",
+        "Implemented a resilient background location tracking system with offline buffering, reverse geocoding, retry logic, connectivity-aware synchronization, and native platform service integration.",
+        "Built document scanning, image processing, PDF generation, preview, and upload workflows for driver paperwork.",
+        "Implemented the Exception Pay Request workflow, including dynamic adjustment types, conditional forms, evidence uploads, validation, and request history.",
+        "Implemented the multi-state leave-management workflow covering submission, changes, counters, extensions, cancellation, and return confirmation.",
+        "Built trip-pay estimate and adjustment-detail experiences with search and filtering.",
+        "Implemented expense and invoice submission workflows with receipt scanning, PDF processing, approver selection, and trip/asset context.",
+        "Implemented push notification handling and deep linking into relevant operational workflows.",
+        "Built fuel-price and fuel-station discovery features with map integration.",
+        "Worked across Android and iOS platform configurations and added compatibility handling for supported web environments."
+      ],
+      "challenges": [],
+      "architecture": {
+        "description": "GetX-based MVC architecture with route bindings, controller-driven state, and reactive UI updates. Natively extended Flutter with Android/Kotlin services for background location lifecycle management.",
+        "nodes": [
+          {
+            "id": "app",
+            "label": "Flutter App",
+            "icon": "smartphone",
+            "tech": [
+              "GetX MVC"
+            ]
+          },
+          {
+            "id": "location",
+            "label": "Background GPS",
+            "icon": "location_on",
+            "tech": [
+              "Native Services"
+            ]
+          },
+          {
+            "id": "api",
+            "label": "REST APIs",
+            "icon": "api",
+            "tech": [
+              "Dio"
+            ]
+          },
+          {
+            "id": "firebase",
+            "label": "Firebase",
+            "icon": "cloud",
+            "tech": [
+              "FCM"
+            ]
+          }
+        ],
+        "connections": [
+          {
+            "fromId": "app",
+            "toId": "location",
+            "label": "Tracking"
+          },
+          {
+            "fromId": "app",
+            "toId": "api",
+            "label": "Network"
+          },
+          {
+            "fromId": "app",
+            "toId": "firebase",
+            "label": "Services"
+          }
+        ]
+      },
+      "workflow": null,
+      "problem": null,
+      "solution": null,
+      "results": null,
+      "timeline": "October 2023 - August 2026",
+      "startDate": null,
+      "completionDate": null,
+      "clientName": null,
+      "companyName": "Triple Eight Transport Inc.",
+      "teamSize": 2,
+      "role": "Core Flutter Developer",
+      "status": "completed",
+      "isFeatured": true,
+      "isHidden": false,
+      "displayOrder": null,
+      "websiteLink": "https://triple8.ca/",
+      "privacyPolicyLink": null,
+      "aboutLink": null,
+      "playStoreLink": "https://play.google.com/store/apps/details?id=ca.triple8.driverapp&hl=en_CA",
+      "appStoreLink": "https://apps.apple.com/ca/app/triple-8-go/id6469860666",
+      "githubLink": null,
+      "videoDemoLink": null,
+      "caseStudyLink": null,
+      "screenshots": [
+        {
+          "imagePath": "assets/images/projects/triple-8/1.png",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/triple-8/2.PNG",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/triple-8/3.png",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/triple-8/4.png",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/triple-8/5.png",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/triple-8/6.png",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/triple-8/7.PNG",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/triple-8/8.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/triple-8/9.jpg",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/triple-8/10.PNG",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        },
+        {
+          "imagePath": "assets/images/projects/triple-8/11.PNG",
+          "title": "",
+          "description": "",
+          "deviceType": "mobile",
+          "orientation": "portrait",
+          "isFeatured": false
+        }
+      ],
+      "subProjects": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Flutter",
+      "category": "Mobile",
+      "description": "Cross-platform mobile framework",
+      "relatedProjects": [
+        "loadster",
+        "smarden",
+        "nutmeg",
+        "scanomat",
+        "speakpro",
+        "jaapsadhana",
+        "soundspy"
+      ],
+      "yearsOfExperience": 3
+    },
+    {
+      "name": "Dart",
+      "category": "Mobile",
+      "description": "Programming language for Flutter",
+      "relatedProjects": [
+        "loadster",
+        "smarden",
+        "nutmeg",
+        "scanomat",
+        "speakpro",
+        "jaapsadhana",
+        "soundspy"
+      ],
+      "yearsOfExperience": 3
+    },
+    {
+      "name": "Kotlin",
+      "category": "Native Android",
+      "description": "Native Android development",
+      "relatedProjects": [
+        "loadster"
+      ],
+      "yearsOfExperience": 2
+    },
+    {
+      "name": "Socket.IO",
+      "category": "Realtime",
+      "description": "Real-time bidirectional communication",
+      "relatedProjects": [
+        "loadster",
+        "nutmeg"
+      ],
+      "yearsOfExperience": 2
+    },
+    {
+      "name": "WebSockets",
+      "category": "Realtime",
+      "description": "Persistent connection protocols",
+      "relatedProjects": [
+        "smarden",
+        "scanomat"
+      ],
+      "yearsOfExperience": 2
+    },
+    {
+      "name": "Firebase",
+      "category": "Backend",
+      "description": "BaaS for auth, database, notifications",
+      "relatedProjects": [
+        "loadster",
+        "smarden",
+        "nutmeg",
+        "speakpro",
+        "soundspy"
+      ],
+      "yearsOfExperience": 3
+    },
+    {
+      "name": "GetX",
+      "category": "Architecture",
+      "description": "State management & routing",
+      "relatedProjects": [
+        "loadster",
+        "smarden",
+        "jaapsadhana"
+      ],
+      "yearsOfExperience": 2
+    },
+    {
+      "name": "Bloc/Cubit",
+      "category": "Architecture",
+      "description": "Predictable state management",
+      "relatedProjects": [
+        "nutmeg"
+      ],
+      "yearsOfExperience": 2
+    },
+    {
+      "name": "Google Maps SDK",
+      "category": "Maps",
+      "description": "Location, tracking and routing",
+      "relatedProjects": [
+        "loadster"
+      ],
+      "yearsOfExperience": 2
+    },
+    {
+      "name": "Stripe",
+      "category": "Payments",
+      "description": "Payment gateway integration",
+      "relatedProjects": [
+        "nutmeg"
+      ],
+      "yearsOfExperience": 2
+    },
+    {
+      "name": "Razorpay",
+      "category": "Payments",
+      "description": "Payment gateway integration",
+      "relatedProjects": [
+        "scanomat"
+      ],
+      "yearsOfExperience": 2
+    },
+    {
+      "name": "Flutter Web",
+      "category": "Web",
+      "description": "Web compilation of Flutter",
+      "relatedProjects": [
+        "scanomat"
+      ],
+      "yearsOfExperience": 2
+    }
+  ]
+}
